@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[before navigate, url = data:,]]>
+    </line>
+    <line>
+      <![CDATA[after navigate, url = https://www.google.com/?gws_rd=ssl]]>
+    </line>
+    <line>
+      <![CDATA[url before click = https://www.google.com/?gws_rd=ssl]]>
+    </line>
+    <line>
+      <![CDATA[click per formed on By.linkText: Gmail]]>
+    </line>
+    <line>
+      <![CDATA[url after click = https://www.google.com/gmail/about/#]]>
+    </line>
+    <line>
+      <![CDATA[url before click = https://www.google.com/gmail/about/#]]>
+    </line>
+    <line>
+      <![CDATA[click per formed on By.linkText: SIGN IN]]>
+    </line>
+    <line>
+      <![CDATA[url after click = https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin]]>
+    </line>
+    <line>
+      <![CDATA[updated By.id: identifierId with input value as "natarajan.test1@gmail.com"]]>
+    </line>
+    <line>
+      <![CDATA[url before click = https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin]]>
+    </line>
+    <line>
+      <![CDATA[click per formed on By.xpath: //span[text()='Next']]]>
+    </line>
+    <line>
+      <![CDATA[url after click = https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17762" started-at="2018-07-03T01:17:23Z" finished-at="2018-07-03T01:17:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17762" started-at="2018-07-03T01:17:23Z" finished-at="2018-07-03T01:17:40Z">
+      <class name="com.yesmsystems.automationframework.testcases.TestCase1">
+        <test-method status="PASS" signature="bs()[pri:0, instance:com.yesmsystems.automationframework.testcases.TestCase1@68c4039c]" name="bs" is-config="true" duration-ms="10876" started-at="2018-07-03T01:17:12Z" finished-at="2018-07-03T01:17:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method status="PASS" signature="tc1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.yesmsystems.automationframework.testcases.TestCase1@68c4039c]" name="tc1" duration-ms="14992" started-at="2018-07-03T01:17:25Z" data-provider="tc1" finished-at="2018-07-03T01:17:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.google.com/?gws_rd=ssl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[before navigate, url = data:,]]>
+            </line>
+            <line>
+              <![CDATA[after navigate, url = https://www.google.com/?gws_rd=ssl]]>
+            </line>
+            <line>
+              <![CDATA[url before click = https://www.google.com/?gws_rd=ssl]]>
+            </line>
+            <line>
+              <![CDATA[click per formed on By.linkText: Gmail]]>
+            </line>
+            <line>
+              <![CDATA[url after click = https://www.google.com/gmail/about/#]]>
+            </line>
+            <line>
+              <![CDATA[url before click = https://www.google.com/gmail/about/#]]>
+            </line>
+            <line>
+              <![CDATA[click per formed on By.linkText: SIGN IN]]>
+            </line>
+            <line>
+              <![CDATA[url after click = https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin]]>
+            </line>
+            <line>
+              <![CDATA[updated By.id: identifierId with input value as "natarajan.test1@gmail.com"]]>
+            </line>
+            <line>
+              <![CDATA[url before click = https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin]]>
+            </line>
+            <line>
+              <![CDATA[click per formed on By.xpath: //span[text()='Next']]]>
+            </line>
+            <line>
+              <![CDATA[url after click = https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="as()[pri:0, instance:com.yesmsystems.automationframework.testcases.TestCase1@68c4039c]" name="as" is-config="true" duration-ms="1345" started-at="2018-07-03T01:17:41Z" finished-at="2018-07-03T01:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- as -->
+      </class> <!-- com.yesmsystems.automationframework.testcases.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
